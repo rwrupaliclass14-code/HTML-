@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>video & audio</title>
+   </head>
+   
+   <body>
+      <header> Welcome to the HTML5 multimedia player </header>
+	  
+	     <nav>
+		    <ul>
+			  <li><a href="#Audio">Audio Player</a></li>
+			  <li><a  href="#Video">Video player</a></li>
+			  <li><a  href="#Image">Image Gallery</a></li>
+			</ul>
+		 </nav>
+	   
+	  <section id="Audio">
+	      <h3>Audio player</h3>
+		    <audio controls>
+              <source src="music.mp3" type="audio/mpeg">
+               Your browser does not support the audio element.
+            </audio>
+		   
+	  </section>
+	  
+	  <section id="Video">
+	     <h3>Video player</h3>
+	       <video controls width="500" autoplay muted loop>
+             <source src="world.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+           </video>
+      </section>
+	  
+	  <section id="Image">
+	     <h3>Image Gallery</h3>
+		  <img src="image1.jpg" />
+		  <img src="image2.jpg" />
+          <img src="image3.jpg" />
+
+	  </section>
+	  
+	  <section>
+	      <h3>Multimedia content table</h3>
+		    <table border="1">
+			  <caption>multimedia player fetures</caption>
+			    <thead>
+			      <th><b>Type</th>
+				  <th><b>File</th>
+				  <th><b>Format</th>
+				</thead>  
+				
+				<tbody>
+				   <tr>
+				     <td>Audio</td>
+					 <td>audio.mp3</td>  
+			         <td>mp3</td>
+			       </tr>
+				   
+				   <tr>
+				     <td>video</td>
+					 <td>video.mp4</td>  
+			         <td>mp4</td>
+			       </tr>
+				   
+				   <tr>
+				     <td>Image Galary</td>
+					 <td>image1.jpg,image2..</td>  
+			         <td>JPEG</td>
+			       </tr>
+				</tbody>
+				
+				<tfoot>
+				   <td colspan="3"> End Of multimedia list</td>
+				</tfoot>
+			</table>
+	  </section>
+	  
+	  <footer>
+	      <p>@ 2025 HTML5 Multimedia Player</p>
+	  </footer>
+   </body>
+</html>
